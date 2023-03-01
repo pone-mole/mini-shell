@@ -1,0 +1,32 @@
+------------------Help Manual for Mini-Shell-------------------
+Here are the supported commands for the mini-shell. Noted that 
+all systems call are inheritedly supported by the mini-shell 
+and is not described in the help manual
+
+  1. cd [path]: change the current directory to the specified
+                directory in the argument
+
+  2. source [script]: takes the filename as provided in the 
+                      argument and execute content as if inputed
+                      as a command line in the mini-shell
+
+  3. prev: prints and re-execute the previous command
+
+  4. help: prints the help manual for all built-in commands
+
+  5. exit: exits the mini-shell
+
+Supported operators:
+
+  1. ';': sequencing commands
+     e.g: echo bool; echo hi
+  
+  2. '<': input redirection
+     e.g: execute < input.txt
+
+  3. '>': output redirection
+     e.g: execute input.txt > output.txt
+
+  4. '|': pipes
+     e.g: execute input.txt | sort
+---------------------------------------------------------------
